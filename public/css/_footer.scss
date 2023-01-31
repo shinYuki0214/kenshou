@@ -1,0 +1,72 @@
+@use "inc" as m;
+
+.ftr {
+    &__logo {
+        img {
+            width: 100%;
+        }
+        width: 200px;
+        max-width: 60%;
+        margin-bottom: 20px;
+    }
+    &__wrapper {
+        padding: 20px;
+        height: 200px;
+        background-color: #fff;
+        @include m.mq(tb) {
+            padding: 35px;
+        }
+    }
+    &__block {
+        margin-bottom: 20px;
+
+        &-txt {
+            display: block;
+            &:not(:last-child) {
+                margin-bottom: 9px;
+            }
+        }
+    }
+    &__btn-block {
+        margin-bottom: 20px;
+    }
+    &__list {
+        @include m.mq(tb) {
+            display: flex;
+            justify-content: flex-start;
+            gap: 30px;
+        }
+        &-line {
+            margin-bottom: 12px;
+            font-weight: bold;
+            &-btn {
+                display: block;
+                @include m.mq(tb) {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 768px) {
+    .ftr {
+        &__flex {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        &__inner {
+            width: 1200px;
+            max-width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        &__item {
+            flex: 1;
+            min-width: 500px;
+        }
+        &__btn-block {
+            margin-bottom: 35px;
+        }
+    }
+}

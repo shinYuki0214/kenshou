@@ -1,0 +1,111 @@
+@use "inc" as m;
+
+.hdr {
+    &__wrapper {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 9999;
+        backdrop-filter: blur(8px);
+        background-color: #fff;
+    }
+    &__inner {
+        padding: 15px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        z-index: 100;
+        @include m.mq(pc) {
+            width: auto;
+            padding: 0;
+            max-width: 20%;
+        }
+    }
+    &__logo {
+        width: 200px;
+        max-width: 60%;
+        @include m.mq(pc) {
+            max-width: 100%;
+        }
+    }
+    &__nav-btn {
+        width: 25px;
+        height: 16px;
+        position: relative;
+        @include m.mq(pc) {
+            display: none;
+        }
+        &-parts {
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: #6f8f84;
+            position: absolute;
+            left: 0;
+            &-01 {
+                top: 0;
+            }
+            &-02 {
+                top: 50%;
+                transform: translateY(-50%);
+            }
+            &-03 {
+                bottom: 0;
+            }
+        }
+    }
+}
+.nav {
+    &__wrapper {
+        padding: 20px;
+        padding-top: 80px;
+        position: absolute;
+        top: 0;
+        background-color: #fff;
+        width: 100%;
+        visibility: hidden;
+        display: none;
+        z-index: 50;
+
+        @include m.mq(pc) {
+            display: block;
+            visibility: visible;
+            position: static;
+            width: auto;
+            padding: 0;
+        }
+    }
+    &__list {
+        &:not(:last-child) {
+            margin-bottom: 40px;
+
+            @include m.mq(pc) {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+@include m.mq(tb) {
+    .nav__list-area {
+        font-size: 14px;
+    }
+}
+@include m.mq(pc) {
+    .hdr__pc-inner {
+        width: 1400px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 40px;
+    }
+    .nav__list-area {
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        gap: 35px;
+    }
+}

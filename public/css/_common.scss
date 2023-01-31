@@ -1,0 +1,10 @@
+@use "inc" as m;
+
+body {
+    font-size: 14px;
+}
+@include m.mq(pc) {
+    .u__pc-none {
+        display: none;
+    }
+}
