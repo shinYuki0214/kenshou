@@ -1,0 +1,62 @@
+@use "inc" as m;
+.mv{
+    &__wrapper{
+        height: calc(100vh - 60px);
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #aaa;
+        color: #fff;
+        line-height: m.$line-height-01;
+    }
+    &__bg{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center center;
+        }
+    }
+    &__inner{
+        position: relative;
+        z-index: 100;
+        width: 1440px;
+        max-width: 100%;
+        padding: 16px;
+        @include m.mq(tb) {
+            padding: 80px;
+        }
+    }
+
+    &__title{
+        text-align: center;
+        font-size: m.$title-font;
+        margin-bottom: 45px;
+        @include m.mq(tb) {
+            margin-bottom: 50px;
+            text-align: left;
+            font-size: 54px;
+        }
+        &-txt{
+            &-01{
+                display: block;
+            }
+            &-02{
+                display: block;
+                font-size: .8em;
+            }
+        }
+    }
+    &__text{
+        @include m.mq(tb) {
+            font-size: 20px;
+            max-width: 100%;
+            width: 530px;
+        }
+    }
+}

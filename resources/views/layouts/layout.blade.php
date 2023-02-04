@@ -15,7 +15,7 @@
 <body>
     <div id="VueHeader">
     </div>
-    <main>
+    <main class="main__area">
         <div class="content">
             @yield('content')
         </div>

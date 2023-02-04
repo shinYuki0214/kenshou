@@ -1,0 +1,93 @@
+@use "inc" as m;
+.sec-02{
+    &__wrapper{
+        padding: m.$section-y m.$section-x;
+        background-color: m.$gray;
+
+        @include m.mq(tb){
+            padding: m.$section-tb;
+        }
+        @include m.mq(pc){
+            padding: m.$section-pc;
+        }
+    }
+    &__txt-area{
+        margin-bottom: 30px;line-height: m.$line-height-01;
+        @include m.mq(tb){
+            text-align: center;
+        }
+    }
+    
+    &__block{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        @include m.mq(pc){
+            align-items: flex-start;
+            gap: 20px;
+        }
+        &-item{
+            width: 345px;
+            @include m.mq(pc){
+                width: 270px;
+                position: relative;
+                &:nth-child(2){
+                    margin-top: 50px;
+                }
+                &:nth-child(3){
+                    margin-top:100px;
+                }
+            }
+        }
+    }
+
+    &__card{
+        padding: 10px;
+        background-color: #fff;
+        box-shadow: 2px 2px 8px #ccc;
+        &-body{
+            padding-top: 10px;
+        }
+        &-title{
+            font-size: 16px;
+            &-01{
+                display: block;
+                margin-bottom: 8px;
+            }
+            &-02{
+                display: block;
+                font-size: 0.7em;
+            }
+        }
+    }
+    &__img{
+        width: 100%;
+        height: 150px;
+        display: block;
+        background-color: black;
+        @include m.mq(pc){
+            height: 375px;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center center;
+        }
+    }
+    &__btn-area{
+        margin-top: 30px;
+        @include m.mq(tb){
+            margin-top: 40px;
+        }
+        @include m.mq(pc){
+            margin-top: 50px;
+        }
+        .c-btn{
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}

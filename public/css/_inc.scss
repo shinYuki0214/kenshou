@@ -3,10 +3,20 @@ $breakpoint: (
     tb: "screen and (min-width: 768px)",
     pc: "screen and (min-width: 1024px)",
 );
-
+$section-y: 30px;
+$section-x: 16px;
+$section-tb: 40px;
+$section-pc: 50px;
 $green1: #6f8f84;
+$gray:#F2F2F2;
+$line-height-01: 1.8;
+$inner-sp:400px;
+
 @mixin mq($bp) {
     @media #{map-get($breakpoint, $bp)} {
         @content;
     }
 }
+
+$title-font: 24px;
+    $title-font-pc: 36px;

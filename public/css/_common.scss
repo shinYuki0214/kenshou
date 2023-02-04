@@ -2,9 +2,23 @@
 
 body {
     font-size: 14px;
+    @include m.mq(tb){
+        font-size: 16px;
+    }
+}
+
+.main__area{
+    padding-top: 60px;
 }
 @include m.mq(pc) {
     .u__pc-none {
         display: none;
+    }
+}
+
+.u__pc-only{
+    display: none;
+    @include m.mq(tb){
+        display: block;
     }
 }
