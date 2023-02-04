@@ -9,6 +9,7 @@
     text-align: center;
     position: relative;
     border: 2px solid #fff;
+    transition: ease all .5s;
     &::before {
         content: "";
         width: 8px;

@@ -5,8 +5,8 @@
 @section('content')
     <section class="mv__wrapper">
         <picture class="mv__bg">
-            <source srcset="" media="(min-width: 768px)">
-            <img src="{{ asset('images/') }}" alt="">
+            <source srcset="{{ asset('images/mv-pc.png') }}" media="(min-width: 768px)">
+            <img src="{{ asset('images/mv-sp.png') }}" alt="">
         </picture>
         <div class="mv__inner">
             <h1 class="mv__title">
@@ -20,10 +20,9 @@
     </section>
     <section class="sec-01__wrapper">
         <div class="sec-01__inner">
-            <picture class="sec-01__img">
-                <source srcset="" media="(min-width: 768px)">
-                <img src="{{ asset('images/') }}" alt="">
-            </picture>
+            <figure class="sec-01__img">
+                <img src="{{ asset('images/sec-01.png') }}" alt="">
+            </figure>
             <div class="sec-01__block">
                 <h2 class="c-title-01">
                     <span class="c-title-01-txt-01">About</span>
@@ -60,7 +59,7 @@
                         <div class="sec-02__card-header">
                             <picture class="sec-02__img">
                                 <source srcset="" media="(min-width: 768px)">
-                                <img src="{{ asset('images/') }}" alt="">
+                                <img src="{{ asset('images/sec-02-01.png') }}" alt="">
                             </picture>
                         </div>
                         <div class="sec-02__card-body">
@@ -76,7 +75,7 @@
                         <div class="sec-02__card-header">
                             <picture class="sec-02__img">
                                 <source srcset="" media="(min-width: 768px)">
-                                <img src="{{ asset('images/') }}" alt="">
+                                <img src="{{ asset('images/sec-02-02.png') }}" alt="">
                             </picture>
                         </div>
                         <div class="sec-02__card-body">
@@ -92,7 +91,7 @@
                         <div class="sec-02__card-header">
                             <picture class="sec-02__img">
                                 <source srcset="" media="(min-width: 768px)">
-                                <img src="{{ asset('images/') }}" alt="">
+                                <img src="{{ asset('images/sec-02-03.png') }}" alt="">
                             </picture>
                         </div>
                         <div class="sec-02__card-body">
@@ -180,7 +179,7 @@
         <div class="sec-04__block">
             <a href="" class="sec-04__btn sec-04__btn-01">
                 <figure class="sec-04__btn-bg">
-                    <img src="{{ asset('images/') }}" alt="">
+                    <img src="{{ asset('images/sec-04-01.png') }}" alt="">
                 </figure>
                 <div class="c-title-01">
                     <span class="c-title-01-txt-01">Contact</span>
@@ -189,7 +188,7 @@
             </a>
             <a href="" class="sec-04__btn sec-04__btn-02">
                 <figure class="sec-04__btn-bg">
-                    <img src="{{ asset('images/') }}" alt="">
+                    <img src="{{ asset('images/sec-04-02.png') }}" alt="">
                 </figure>
                 <div class="c-title-01">
                     <span class="c-title-01-txt-01">Company</span>
