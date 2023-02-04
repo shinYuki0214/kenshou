@@ -251,6 +251,7 @@ th {
 }
 
 body {
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 14px;
 }
 @media screen and (min-width: 768px) {
@@ -275,6 +276,10 @@ body {
   .u__pc-only {
     display: block;
   }
+}
+
+.u__serif {
+  font-family: "Noto Serif JP", serif;
 }
 
 .c-btn {
@@ -360,6 +365,7 @@ body {
   background-color: black;
 }
 .c-title-01-txt-01 {
+  font-family: "Noto Serif JP", serif;
   display: block;
   font-size: 0.8em;
   margin-bottom: 10px;

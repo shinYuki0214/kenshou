@@ -1,6 +1,10 @@
 @use "inc" as m;
 
 body {
+    // font-family: 'Noto Sans JP', sans-serif;
+    // font-family: 'Noto Serif JP', serif;
+    
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 14px;
     @include m.mq(tb){
         font-size: 16px;
@@ -21,4 +25,7 @@ body {
     @include m.mq(tb){
         display: block;
     }
+}
+.u__serif{
+    font-family: 'Noto Serif JP', serif;
 }
