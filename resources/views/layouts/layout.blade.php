@@ -13,32 +13,23 @@
 </head>
 
 <body>
-    @include('parts.header')
+    <div id="VueHeader">
+    </div>
     <main>
         <div class="content">
             @yield('content')
         </div>
     </main>
-
     @include('parts.footer')
-    <script type="module">
-
-            $(function() {
-                if (window.matchMedia("(max-width: 1023px)").matches) {
-                
-            $('.js__nav-btn').click(function(){
-                $(this).toggleClass('js__nav-active');
-                if($('.js__nav-area').hasClass('js__nav-active')){
-                    $('.js__nav-area').removeClass('js__nav-active');
-                }else{
-                    $('.js__nav-area').addClass('js__nav-active');
-                }
-            });
-                } else {
-                };
-            });
-
-        </script>
+    <script>
+        var app = new Vue({
+            el: '#VueHeader',
+            data: {
+                open: false
+            }
+        })
+    </script>
 </body>
+
 
 </html>
