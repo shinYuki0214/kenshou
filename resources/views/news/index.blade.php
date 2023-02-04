@@ -37,7 +37,7 @@
                 <div class="sec-01__btn-area">
                     <a href="" class="c-btn c-btn-02">
                         <span class="c-btn-txt">
-                            お問い合わせ
+                            私たちについて
                         </span>
                     </a>
                 </div>
@@ -114,7 +114,68 @@
             </div>
         </div>
     </section>
-    <section class="sec-03__wrapper"></section>
+    <section class="sec-03__wrapper">
+        <h2 class="c-title-01">
+            <span class="c-title-01-txt-01">News</span>
+            <span class="c-title-01-txt-02">お知らせ</span>
+        </h2>
+        <div class="sec-03__inner">
+            <div class="sec-03__list-area">
+                <div class="sec-03__list">
+                    <div class="sec-03__list-txt sec-03__list-txt-01">
+                        2022.1108
+                    </div>
+                    <div class="sec-03__list-txt sec-03__list-txt-02">
+                        新着情報
+                    </div>
+                    <div class="sec-03__list-txt sec-03__list-txt-03">
+                        Webサイトを開設しました
+                    </div>
+                </div>
+                <div class="sec-03__list">
+                    <div class="sec-03__list-txt sec-03__list-txt-01">
+                        2022.1108
+                    </div>
+                    <div class="sec-03__list-txt sec-03__list-txt-02">
+                        新着情報
+                    </div>
+                    <div class="sec-03__list-txt sec-03__list-txt-03">
+                        Webサイトを開設しました
+                    </div>
+                </div>
+                <div class="sec-03__list">
+                    <div class="sec-03__list-txt sec-03__list-txt-01">
+                        2022.1108
+                    </div>
+                    <div class="sec-03__list-txt sec-03__list-txt-02">
+                        新着情報
+                    </div>
+                    <div class="sec-03__list-txt sec-03__list-txt-03">
+                        Webサイトを開設しました
+                    </div>
+                </div>
+                <div class="sec-03__list">
+                    <div class="sec-03__list-txt sec-03__list-txt-01">
+                        2022.1108
+                    </div>
+                    <div class="sec-03__list-txt sec-03__list-txt-02">
+                        新着情報
+                    </div>
+                    <div class="sec-03__list-txt sec-03__list-txt-03">
+                        Webサイトを開設しました
+                    </div>
+                </div>
+            </div>
+
+            <div class="sec-03__btn-area">
+                <a href="" class="c-btn c-btn-02">
+                    <span class="c-btn-txt">
+                        お問い合わせ
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
     <section class="sec-04__wrapper">
         <div class="sec-04__block">
             <a href="" class="sec-04__btn sec-04__btn-01">

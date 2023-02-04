@@ -306,7 +306,7 @@ body {
   border: 2px solid #6f8f84;
   color: #6f8f84;
 }
-.c-btn:hover ::before {
+.c-btn:hover::before {
   border-top-color: #6f8f84;
   border-right-color: #6f8f84;
 }
@@ -321,6 +321,14 @@ body {
 .c-btn-02::before {
   border-top: 2px solid #6f8f84;
   border-right: 2px solid #6f8f84;
+}
+.c-btn-02:hover {
+  border: 2px solid #fff;
+  color: #fff;
+}
+.c-btn-02:hover::before {
+  border-top-color: #fff;
+  border-right-color: #fff;
 }
 
 @media screen and (min-width: 768px) {
@@ -609,7 +617,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #aaa;
   color: #fff;
   line-height: 1.8;
 }
@@ -618,6 +625,8 @@ body {
   width: 100%;
   height: 100%;
   z-index: 10;
+  display: block;
+  background-color: black;
 }
 .mv__bg img {
   width: 100%;
@@ -765,6 +774,12 @@ body {
 @media screen and (min-width: 768px) {
   .sec-02__txt-area {
     text-align: center;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .sec-02__txt-area {
+    margin-bottom: 50px;
   }
 }
 .sec-02__block {
@@ -849,6 +864,63 @@ body {
 .sec-02__btn-area .c-btn {
   margin-left: auto;
   margin-right: auto;
+}
+
+.sec-03__wrapper {
+  background-color: #6f8f84;
+  padding: 30px 30px;
+}
+@media screen and (min-width: 768px) {
+  .sec-03__wrapper {
+    padding: 40px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .sec-03__wrapper {
+    padding: 50px;
+  }
+}
+.sec-03__wrapper .c-title-01 {
+  color: #fff;
+}
+.sec-03__inner {
+  width: 600px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sec-03__list {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #fff;
+}
+@media screen and (min-width: 768px) {
+  .sec-03__list {
+    gap: 27px;
+  }
+}
+.sec-03__list:not(:last-child) {
+  margin-bottom: 20px;
+}
+.sec-03__btn-area {
+  margin-top: 30px;
+}
+.sec-03__btn-area .c-btn {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+  .sec-03__btn-area {
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .sec-03__btn-area {
+    margin-top: 50px;
+  }
 }
 
 @media screen and (min-width: 1024px) {

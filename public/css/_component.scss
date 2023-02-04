@@ -25,7 +25,7 @@
         background-color: transparent;
         border: 2px solid m.$green1;
         color: m.$green1;
-        ::before {
+        &::before {
             border-top-color: m.$green1;
             border-right-color: m.$green1;
         }
@@ -36,14 +36,22 @@
     width: 260px;
     max-width: 100%;
 
-
-    &-02{
+    &-02 {
         background-color: #fff;
         color: m.$green1;
         border: 2px solid m.$green1;
         &::before {
             border-top: 2px solid m.$green1;
             border-right: 2px solid m.$green1;
+        }
+
+        &:hover {
+            border: 2px solid #fff;
+            color: #fff;
+            &::before {
+                border-top-color: #fff;
+                border-right-color: #fff;
+            }
         }
     }
 }
@@ -56,13 +64,13 @@
     }
 }
 
-.c-title-01{
+.c-title-01 {
     font-size: m.$title-font;
     text-align: center;
     padding-bottom: 20px;
     position: relative;
     margin-bottom: 30px;
-    &::before{
+    &::before {
         content: "";
         position: absolute;
         width: 40px;
@@ -72,29 +80,29 @@
         bottom: 0;
         transform: translateX(-50%);
     }
-    &-02{
-        &::before{
+    &-02 {
+        &::before {
             background-color: black;
         }
     }
-    &-txt{
-        &-01{
+    &-txt {
+        &-01 {
             display: block;
-            font-size: .8em;
+            font-size: 0.8em;
             margin-bottom: 10px;
-            @include m.mq(tb){
-                font-size: .6em;
+            @include m.mq(tb) {
+                font-size: 0.6em;
             }
         }
-        &-02{
+        &-02 {
             display: block;
         }
     }
-    @include m.mq(tb){
+    @include m.mq(tb) {
         font-size: m.$title-font-pc;
         margin-bottom: 40px;
     }
-    @include m.mq(pc){
+    @include m.mq(pc) {
         margin-bottom: 50px;
     }
 }

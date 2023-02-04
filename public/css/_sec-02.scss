@@ -15,6 +15,10 @@
         margin-bottom: 30px;line-height: m.$line-height-01;
         @include m.mq(tb){
             text-align: center;
+            margin-bottom: 40px;
+        }
+        @include m.mq(pc){
+            margin-bottom: 50px;
         }
     }
     

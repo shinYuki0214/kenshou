@@ -1,0 +1,49 @@
+@use "inc" as m;
+.sec-03 {
+    &__wrapper{
+        background-color: m.$green1;
+        padding: m.$section-y m.$section-y;
+        @include m.mq(tb){
+            padding: m.$section-tb;
+        }
+        @include m.mq(tb){
+            padding: m.$section-pc;
+        }
+        .c-title-01{
+            color: #fff;
+        }
+    }
+    &__inner{
+        width: 600px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &__list{
+        color: #fff;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding-bottom: 4px;
+        border-bottom: 1px solid #fff;
+        @include m.mq(tb){
+            gap: 27px;
+        }
+        &:not(:last-child){
+            margin-bottom: 20px;
+        }
+    }
+    &__btn-area{
+        margin-top: 30px;
+        .c-btn{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        @include m.mq(tb){
+            margin-top: 40px;
+        }
+        @include m.mq(pc){
+            margin-top: 50px;
+        }
+    }
+}
