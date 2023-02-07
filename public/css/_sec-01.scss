@@ -66,6 +66,7 @@
     }
     &__inner{
         @include m.mq(tb){
+            max-height: 430px;
             display: flex;
         }
     }

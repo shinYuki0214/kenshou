@@ -1,0 +1,44 @@
+@use "inc" as m;
+.mv-02 {
+    &__wrapper {
+        height: 380px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    &__inner {
+        position: relative;
+        z-index: 100;
+    }
+    &__bg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center center;
+        }
+    }
+    &__title {
+        color: #fff;
+        font-size: m.$title-font-sub-01;
+        @media screen and (min-width: 768px) {
+            font-size: m.$title-font-sub-01-pc;
+        }
+        text-align: center;
+        &-01{
+            display: block;
+            font-size: 0.5em;
+            margin-bottom: 20px;
+            font-family: "Noto Serif JP", serif;
+        }
+        &-02{
+            display: block;
+        }
+    }
+}
