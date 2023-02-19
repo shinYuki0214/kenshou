@@ -34,7 +34,7 @@
                     </p>
                 </div>
                 <div class="sec-01__btn-area">
-                    <a href="" class="c-btn c-btn-02">
+                    <a href="/aboutus" class="c-btn c-btn-02">
                         <span class="c-btn-txt">
                             私たちについて
                         </span>
@@ -105,7 +105,7 @@
             </div>
 
             <div class="sec-02__btn-area">
-                <a href="" class="c-btn">
+                <a href="/business" class="c-btn">
                     <span class="c-btn-txt">
                         事業内容
                     </span>
@@ -167,9 +167,9 @@
             </div>
 
             <div class="sec-03__btn-area">
-                <a href="" class="c-btn c-btn-02">
+                <a href="/news" class="c-btn c-btn-02">
                     <span class="c-btn-txt">
-                        お問い合わせ
+                        お知らせ一覧
                     </span>
                 </a>
             </div>

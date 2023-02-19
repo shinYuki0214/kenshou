@@ -20,12 +20,14 @@ class NewsController extends Controller
     }
     
     public function aboutus(){
-        $textMessage = [
-            'pageTitle1'=>'About',
-            'pageTitle2'=>'私たちについて',
-        ];
-        return view('news.page-01', compact('textMessage'));
+        return view('news.about');
 
+    }
+    public function business(){
+        return view('news.business');
+    }
+    public function news(){
+        return view('news.news');
     }
 
     /**

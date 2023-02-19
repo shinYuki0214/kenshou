@@ -4,7 +4,7 @@
     <header class="hdr__wrapper">
         <div class="hdr__pc-inner">
             <div class="hdr__inner">
-                <div class="hdr__logo">
+                <a href="/" class="hdr__logo">
                     <svg viewBox="0 0 200 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M148.604 25.3472V0.911865H172.626V25.3472H148.604Z" fill="#CD883B" />
                         <path d="M166.294 7.11182H155.121V19.1471H166.294V7.11182Z" fill="white" />
@@ -29,7 +29,7 @@
                             d="M87.151 26.0764C89.1051 26.0764 90.6892 24.5252 90.6892 22.6117C90.6892 20.6982 89.1051 19.147 87.151 19.147C85.1969 19.147 83.6128 20.6982 83.6128 22.6117C83.6128 24.5252 85.1969 26.0764 87.151 26.0764Z"
                             fill="#CD883B" />
                     </svg>
-                </div>
+                </a>
                 <div class="hdr__nav-btn js__nav-btn" @click="showElement">
                     <span class="hdr__nav-btn-parts hdr__nav-btn-parts-01"></span>
                     <span class="hdr__nav-btn-parts hdr__nav-btn-parts-02"></span>
@@ -39,19 +39,19 @@
             <nav class="nav__wrapper js__nav-area" v-bind:class="{'js__nav-active' : message }">
                 <ul class="nav__list-area">
                     <li class="nav__list">
-                        <a href="" class="nav__list-btn"><span class="nav__list-btn-txt">私たちについて</span></a>
+                        <a href="/aboutus" class="nav__list-btn"><span class="nav__list-btn-txt">私たちについて</span></a>
                     </li>
                     <li class="nav__list">
-                        <a href="" class="nav__list-btn"><span class="nav__list-btn-txt">事業内容</span></a>
+                        <a href="/business" class="nav__list-btn"><span class="nav__list-btn-txt">事業内容</span></a>
                     </li>
                     <li class="nav__list">
-                        <a href="" class="nav__list-btn"><span class="nav__list-btn-txt">お知らせ</span></a>
+                        <a href="/news" class="nav__list-btn"><span class="nav__list-btn-txt">お知らせ</span></a>
                     </li>
                     <li class="nav__list">
-                        <a href="" class="nav__list-btn"><span class="nav__list-btn-txt">会社情報</span></a>
+                        <a href="/company" class="nav__list-btn"><span class="nav__list-btn-txt">会社情報</span></a>
                     </li>
                     <li class="nav__list">
-                        <a href="" class="nav__list-btn"><span class="nav__list-btn-txt">アクセス</span></a>
+                        <a href="/access" class="nav__list-btn"><span class="nav__list-btn-txt">アクセス</span></a>
                     </li>
                     <li class="nav__list u__pc-none">
                         <a href="" class="nav__list-btn"><span class="nav__list-btn-txt">電話番号

@@ -20,5 +20,7 @@ use App\Http\Controllers\NewsController;
 
 Route::controller(NewsController::class)->group(function () {
     Route::get('/', 'index');
-    Route::get('/aboutus', 'aboutus');
+    Route::get('/aboutus', 'aboutus')->name('aboutus');
+    Route::get('/business', 'business')->name('business');
+    Route::get('/news', 'news')->name('news');
 });
