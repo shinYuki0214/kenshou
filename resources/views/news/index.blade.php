@@ -177,7 +177,7 @@
     </section>
     <section class="sec-04__wrapper">
         <div class="sec-04__block">
-            <a href="" class="sec-04__btn sec-04__btn-01">
+            <a href="/" class="sec-04__btn sec-04__btn-01">
                 <figure class="sec-04__btn-bg">
                     <img src="{{ asset('images/sec-04-01.png') }}" alt="">
                 </figure>
@@ -186,7 +186,7 @@
                     <span class="c-title-01-txt-02">お問い合わせ</span>
                 </div>
             </a>
-            <a href="" class="sec-04__btn sec-04__btn-02">
+            <a href="/company" class="sec-04__btn sec-04__btn-02">
                 <figure class="sec-04__btn-bg">
                     <img src="{{ asset('images/sec-04-02.png') }}" alt="">
                 </figure>

@@ -5,8 +5,8 @@
 @section('content')
     <div class="mv-02__wrapper">
         <picture class="mv-02__bg">
-            <source srcset="" media="(min-width: 768px)">
-            <img src="{{ asset('images/sec-02-01.png') }}" alt="">
+            <source srcset="{{ asset('images/about-mv-bg-pc.png') }}" media="(min-width: 768px)">
+            <img src="{{ asset('images/about-mv-bg.png') }}" alt="">
         </picture>
         <div class="mv-02__inner">
             <h1 class="mv-02__title">
@@ -18,7 +18,7 @@
     <section class="sec-05__wrapper">
         <div class="sec-05__inner">
             <figure class="sec-05__img">
-                <img src="http://54.92.51.167/images/sec-01.png" alt="">
+                <img src="{{asset('images/about-01.png')}}" alt="">
             </figure>
             <div class="sec-05__block">
                 <h2 class="c-title-01">
@@ -34,7 +34,7 @@
         </div>
         <div class="sec-05__inner">
             <figure class="sec-05__img">
-                <img src="http://54.92.51.167/images/sec-01.png" alt="">
+                <img src="{{asset('images/about-02.png')}}" alt="">
             </figure>
             <div class="sec-05__block">
                 <h2 class="c-title-01">
@@ -50,7 +50,7 @@
         </div>
         <div class="sec-05__inner">
             <figure class="sec-05__img">
-                <img src="http://54.92.51.167/images/sec-01.png" alt="">
+                <img src="{{asset('images/about-03.png')}}" alt="">
             </figure>
             <div class="sec-05__block">
                 <h2 class="c-title-01">
@@ -66,4 +66,11 @@
         </div>
     </section>
 
+    <div class="pankuzu__wrapper">
+        <div class="pannkuzu__inner">
+            <div class="pankuzu__block">
+                <a href="/" class="pankuzu__btn">ホーム</a>/<div>私たちについて</div>
+            </div>
+        </div>
+    </div>
 @endsection

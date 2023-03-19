@@ -29,6 +29,9 @@ class NewsController extends Controller
     public function news(){
         return view('news.news');
     }
+    public function company(){
+        return view('news.company');
+    }
 
     /**
      * Show the form for creating a new resource.

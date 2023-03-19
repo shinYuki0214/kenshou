@@ -50,22 +50,23 @@
                 </div>
                 <ul class="ftr__list">
                     <li class="ftr__list-line">
-                        <a href="" class="ftr__list-line-btn">私たちについて</a>
+                        <a href="/aboutus" class="ftr__list-line-btn">私たちについて</a>
                     </li>
                     <li class="ftr__list-line">
-                        <a href="" class="ftr__list-line-btn">事業内容</a>
+                        <a href="/business" class="ftr__list-line-btn">事業内容</a>
                     </li>
                     <li class="ftr__list-line">
-                        <a href="" class="ftr__list-line-btn">お知らせ</a>
+                        <a href="/news" class="ftr__list-line-btn">お知らせ</a>
                     </li>
                     <li class="ftr__list-line">
-                        <a href="" class="ftr__list-line-btn">会社情報</a>
+                        <a href="/company" class="ftr__list-line-btn">会社情報</a>
                     </li>
                     <li class="ftr__list-line">
-                        <a href="" class="ftr__list-line-btn">アクセス</a>
+                        <a href="/company#mapArea" class="ftr__list-line-btn">アクセス</a>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
 </footer>
+<div class="copy-right">© 2023 ︎ken-shou.inc</div>

@@ -5,8 +5,8 @@
 @section('content')
     <div class="mv-02__wrapper">
         <picture class="mv-02__bg">
-            <source srcset="" media="(min-width: 768px)">
-            <img src="{{ asset('images/sec-02-01.png') }}" alt="">
+            <source srcset="{{ asset('images/news-mv-bg-pc.png') }}" media="(min-width: 768px)">
+            <img src="{{ asset('images/news-mv-bg.png') }}" alt="">
         </picture>
         <div class="mv-02__inner">
             <h1 class="mv-02__title">
@@ -105,4 +105,11 @@
             </div>
         </div>
     </section>
+    <div class="pankuzu__wrapper">
+        <div class="pannkuzu__inner">
+            <div class="pankuzu__block">
+                <a href="/" class="pankuzu__btn">ホーム</a>/<div>お知らせ一覧</div>
+            </div>
+        </div>
+    </div>
 @endsection

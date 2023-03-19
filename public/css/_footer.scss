@@ -11,7 +11,7 @@
     }
     &__wrapper {
         padding: 20px;
-        height: 200px;
+        // height: 200px;
         background-color: #fff;
         @include m.mq(tb) {
             padding: 35px;
@@ -68,5 +68,14 @@
         &__btn-block {
             margin-bottom: 35px;
         }
+    }
+}
+
+.copy-right{
+    text-align: center;
+    padding: 20px 15px;
+    font-size: 14px;
+    @media screen and (min-width: 768px) {
+     padding: 30px;
     }
 }

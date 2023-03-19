@@ -23,4 +23,23 @@ Route::controller(NewsController::class)->group(function () {
     Route::get('/aboutus', 'aboutus')->name('aboutus');
     Route::get('/business', 'business')->name('business');
     Route::get('/news', 'news')->name('news');
+    Route::get('/company', 'company')->name('company');
+});
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});
+
+
+Route::prefix('manager')
+->middleware('can:manager-higher')
+->group(function(){
+    Route::get('/', function(){
+        dd('manager');
+    });
 });

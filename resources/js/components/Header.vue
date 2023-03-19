@@ -51,7 +51,7 @@
                         <a href="/company" class="nav__list-btn"><span class="nav__list-btn-txt">会社情報</span></a>
                     </li>
                     <li class="nav__list">
-                        <a href="/access" class="nav__list-btn"><span class="nav__list-btn-txt">アクセス</span></a>
+                        <a href="/company#mapArea" class="nav__list-btn"><span class="nav__list-btn-txt">アクセス</span></a>
                     </li>
                     <li class="nav__list u__pc-none">
                         <a href="" class="nav__list-btn"><span class="nav__list-btn-txt">電話番号

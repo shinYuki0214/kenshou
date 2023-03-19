@@ -1,5 +1,9 @@
-import "./bootstrap";
-import { createApp } from "vue";
-import HeaderApp from "./components/AppHeader.vue";
-const app = createApp(HeaderApp);
-app.mount("#VueHeader");
+import './bootstrap';
+
+import Alpine from 'alpinejs';
+import focus from '@alpinejs/focus';
+window.Alpine = Alpine;
+
+Alpine.plugin(focus);
+
+Alpine.start();

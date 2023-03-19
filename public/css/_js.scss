@@ -28,7 +28,7 @@
 @keyframes openNav {
     from {
         opacity: 0;
-        transform: translateY(-100%);
+        transform: translateX(100%);
     }
     to {
         opacity: 1;
