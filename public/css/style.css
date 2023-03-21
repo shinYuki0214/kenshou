@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! destyle.css v4.0.0 | MIT License | https://github.com/nicolas-cusan/destyle.min.css */
 *,
 ::before,
@@ -361,6 +362,12 @@ body {
   left: 50%;
   bottom: 0;
   transform: translateX(-50%);
+}
+@media screen and (min-width: 768px) {
+  .c-title-01::before {
+    height: 5px;
+    bottom: -3px;
+  }
 }
 .c-title-01-02::before {
   background-color: black;
@@ -1464,4 +1471,148 @@ body {
 .sec-09__map-area iframe {
   width: 100%;
   height: 100%;
+}
+
+.frm__wrapper {
+  padding: 30px 16px;
+}
+@media screen and (min-width: 768px) {
+  .frm__wrapper {
+    padding: 50px 16px;
+  }
+}
+.frm__wrapper input, .frm__wrapper select, .frm__wrapper textarea {
+  border-radius: 8px;
+  padding: 8px;
+  border: 1px solid #D9D9D9;
+  display: block;
+  width: 100%;
+}
+.frm__wrapper .c-btn {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #6f8f84;
+}
+.frm__wrapper .c-btn:hover {
+  background-color: #fff;
+}
+.frm__wrapper .frm__checkbox {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  display: inline-block;
+  margin-right: 4px;
+}
+.frm__wrapper .frm__textarea {
+  height: 200px;
+}
+
+.frm__inner {
+  width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+.frm__text-area {
+  line-height: 2;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .frm__text-area {
+    text-align: center;
+  }
+}
+
+.frm__title {
+  font-size: 12px;
+  margin-bottom: 6px;
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .frm__title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+}
+
+.frm__block-01:not(:last-child) {
+  margin-bottom: 12px;
+}
+@media screen and (min-width: 768px) {
+  .frm__block-01:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}
+
+.frm__point {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.frm__block-02 {
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+  .frm__block-02 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+.frm__error {
+  font-size: 0.8em;
+  color: red;
+}
+
+.frm__required {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.frm__required::after {
+  content: "必須";
+  font-size: 0.8em;
+  padding: 3px 8px;
+  background-color: #CB4478;
+  color: #fff;
+  margin-left: 12px;
+}
+
+.frm__sp-only {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .frm__sp-only {
+    display: block;
+  }
+}
+
+.thanks__wrapper {
+  padding: 30px 16px;
+}
+@media screen and (min-width: 768px) {
+  .thanks__wrapper {
+    padding: 50px 16px;
+  }
+}
+
+.thanks__inner {
+  width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.thanks__btn {
+  display: block;
+  margin-top: 24px;
+  font-size: 0.8em;
+  text-decoration: underline;
+  color: #6f8f84;
 }/*# sourceMappingURL=style.css.map */

@@ -42,7 +42,7 @@
             </div>
             <div class="ftr__item ftr__item-02">
                 <div class="ftr__btn-block">
-                    <a href="" class="c-btn">
+                    <a href="/form" class="c-btn">
                         <span class="c-btn-txt">
                             お問い合わせ
                         </span>

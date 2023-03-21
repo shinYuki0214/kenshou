@@ -101,7 +101,7 @@
                     </p>
                 </div>
                 <div class="sec-06__btn-area">
-                    <div class="c-btn c-btn-02">
+                    <div class="c-btn">
                         <span class="c-btn-txt">
                             施工例はこちら
                         </span>
@@ -124,7 +124,7 @@
                     </p>
                 </div>
                 <div class="sec-06__btn-area">
-                    <div class="c-btn">
+                    <div class="c-btn c-btn-02">
                         <span class="c-btn-txt">
                             施工例はこちら
                         </span>
@@ -147,7 +147,7 @@
                     </p>
                 </div>
                 <div class="sec-06__btn-area">
-                    <div class="c-btn c-btn-02">
+                    <div class="c-btn">
                         <span class="c-btn-txt">
                             施工例はこちら
                         </span>

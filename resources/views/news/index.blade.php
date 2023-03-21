@@ -177,7 +177,7 @@
     </section>
     <section class="sec-04__wrapper">
         <div class="sec-04__block">
-            <a href="/" class="sec-04__btn sec-04__btn-01">
+            <a href="/form" class="sec-04__btn sec-04__btn-01">
                 <figure class="sec-04__btn-bg">
                     <img src="{{ asset('images/sec-04-01.png') }}" alt="">
                 </figure>

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\NewsController;
+use App\Http\Controllers\FormController;
 
 /*
 |--------------------------------------------------------------------------
@@ -43,3 +44,11 @@ Route::prefix('manager')
         dd('manager');
     });
 });
+
+
+// お問合せフォーム
+Route::get('/form', [FormController::class, 'index'])->name('form');
+Route::get('/form/complete', [FormController::class, 'complete'])->name('form.complete');
+
+// postされた際に送信処理を実行するようにする
+Route::post('/form', [FormController::class, 'sendMail']);

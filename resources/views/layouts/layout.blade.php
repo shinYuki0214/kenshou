@@ -71,7 +71,7 @@
                                 080-1016-4693</span></a>
                     </li>
                     <li class="nav__list">
-                        <a href="" class="c-btn">
+                        <a href="/form" class="c-btn">
                             <span class="c-btn-txt">
                                 お問い合わせ
                             </span>
