@@ -32,10 +32,10 @@ class FormUserMail extends Mailable
      */
     public function envelope()
     {
-        $from    = new Address('iwata@gurukun-web.com', 'KENSHO');
+        $from    = new Address('contact@kensho-web.com', 'KENSHO');
         $subject = '【KENSHO】お問い合わせ有難うございます';
 
-        // 
+        //
         return new Envelope(
             from: $from,
             subject: $subject,
