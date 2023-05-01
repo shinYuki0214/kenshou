@@ -32,13 +32,13 @@ class FormAdminMail extends Mailable
      */
     public function envelope()
     {
-        $from    = new Address($this->form_data['email'], $this->form_data['name']);
+        $from    = new Address($this->form_data['email'], 'KENSHOサイトより');
         $subject = 'webサイトからお問い合わせがありました';
-      
-        // 
+
+        //
         return new Envelope(
-          from: $from,
-          subject: $subject,
+            from: $from,
+            subject: $subject,
         );
     }
 
