@@ -35,11 +35,11 @@ class FormController extends Controller
      */
     public function sendMail(ContactFormRequest $request)
     {
-        // 
+        //
         $form_data = $request->validated();
 
         // 送信先メールアドレス
-        $email_admin = 'iwata@gurukun-web.com,sin2022web@gmail.com';
+        $email_admin = 'contact@kensho-web.com';
         $email_user  = $form_data['email'];
 
         // 管理者宛メール
@@ -50,7 +50,7 @@ class FormController extends Controller
         // ログ
         // Log::debug($form_data['name']. ' さまよりお問い合わせ');
 
-        // 
+        //
         return to_route('form.complete');
     }
 }
